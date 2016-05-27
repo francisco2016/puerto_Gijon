@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=nombre\ dni
+comment0.target=Cliente(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cliente\r\n
+comment1.params=
+comment1.target=java.lang.String\ getNombre()
+comment1.text=\r\n\ Serie\ de\ getters\ para\ retornar\ el\ valor\ de\ los\ atributos\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDni()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ mt\ para\ retornar\ los\ datos\ del\ objeto\r\n
+numComments=4

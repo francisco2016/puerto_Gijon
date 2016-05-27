@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=matricula\ eslora\ anoFabricacion
+comment0.target=Barco(java.lang.String,\ float,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Barco\r\n
+comment1.params=
+comment1.target=java.lang.String\ getMatricula()
+comment1.text=\r\n\ Serie\ de\ mt\ para\ retornar\ el\ valor\ de\ los\ atributos\r\n
+comment2.params=
+comment2.target=float\ getEslora()
+comment3.params=
+comment3.target=int\ getAnoFabricacion()
+comment4.params=
+comment4.target=int\ getCoeficienteBernua()
+numComments=5
