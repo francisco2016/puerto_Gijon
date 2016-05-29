@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=numeroMastiles\ matricula\ eslora\ anoFabricacion
+comment0.target=Velero(int,\ java.lang.String,\ float,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Velero\r\n
+comment1.params=
+comment1.target=int\ getNumeroMastiles()
+comment1.text=\r\n\ Serie\ de\ mt\ para\ retornar\ el\ valor\ de\ los\ atributos\r\n
+comment2.params=
+comment2.target=int\ getCoeficienteBernua()
+comment2.text=\r\n\ @Override\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

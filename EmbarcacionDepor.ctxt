@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=potencia\ matricula\ eslora\ anoFabricacion
+comment0.target=EmbarcacionDepor(int,\ java.lang.String,\ float,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ EmbarcacionDepor\r\n
+comment1.params=
+comment1.target=int\ getPotencia()
+comment2.params=
+comment2.target=int\ getCoeficienteBernua()
+comment2.text=\r\n\ @Override\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

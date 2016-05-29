@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=numeroDias\ cliente\ barco
+comment0.target=Alquiler(int,\ Cliente,\ Barco)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Alquiler\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=float\ getCosteAlquiler()
+numComments=3

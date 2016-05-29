@@ -27,14 +27,20 @@ public abstract class Barco
    public String getMatricula(){
        return matricula;
    }
+   
    public float getEslora(){
        return eslora;
    }
+   
    public int getAnoFabricacion(){
        return anoFabricacion;
    }
+   
    public abstract int getCoeficienteBernua();
    
+   public String toString(){
+       return "Matricula:" +matricula+ "Eslora" +eslora+ "Año de fabricacion: " +anoFabricacion;
+   }
 }
 
 

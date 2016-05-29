@@ -5,29 +5,37 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Velero
+public class Velero extends Barco
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int numeroMastiles;
 
     /**
      * Constructor for objects of class Velero
      */
-    public Velero()
+    public Velero(int numeroMastiles, String matricula, float eslora, int anoFabricacion)
     {
-        // initialise instance variables
-        x = 0;
+     super( matricula, eslora, anoFabricacion);
+     this.numeroMastiles = numeroMastiles;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Serie de mt para retornar el valor de los atributos
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public int getNumeroMastiles(){
+        return numeroMastiles;
+    }
+    
+    /**
+     * @Override
+     */
+    public int getCoeficienteBernua(){
+        return numeroMastiles;
+    }
+    
+    public String toString(){
+        return  "Matricula:" +getMatricula()+ "Eslora" +getEslora()+ "Año de fabricacion: " +getAnoFabricacion()
+                + " Número de mástiles: " +numeroMastiles;
     }
 }
+

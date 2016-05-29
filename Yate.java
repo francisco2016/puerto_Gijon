@@ -2,32 +2,35 @@
 /**
  * Write a description of class Yate here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Francisco
  */
-public class Yate
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Yate extends EmbarcacionDepor{
+    private int camarotes;
 
     /**
      * Constructor for objects of class Yate
      */
-    public Yate()
+    public Yate(int camarotes, int potencia, String matricula, float eslora, int anoFabricacion)
     {
-        // initialise instance variables
-        x = 0;
+        super( potencia, matricula, eslora, anoFabricacion);
+        this.camarotes = camarotes;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    * @Override
+    */
+    public int getCoeficienteBernua(){
+        return camarotes;
+    }
+    
+    public String toString(){
+        return  "Matricula:" +getMatricula()+ "Eslora" +getEslora()+ "Año de fabricacion: " +getAnoFabricacion()
+        + "Potencia: " +getPotencia()+ "cv. Camarotes;" +camarotes ;
     }
 }
+
+
+
+
+
+

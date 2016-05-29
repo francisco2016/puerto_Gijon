@@ -1,33 +1,51 @@
 
 /**
  * Write a description of class Alquiler here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *Francisco.
  */
 public class Alquiler
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private int numeroDias;
+    private Cliente cliente;
+    private Barco barco;
+    public static final int VALOR_FIJO_ALQUILER  = 300;
+    public static final int MULTIPLICADOR_ESLORA  = 10;
+    
     /**
      * Constructor for objects of class Alquiler
      */
-    public Alquiler()
+    public Alquiler(int numeroDias, Cliente cliente, Barco barco)
     {
-        // initialise instance variables
-        x = 0;
+       this.numeroDias = numeroDias;
+       cliente = new Cliente( cliente.getNombre(),  cliente.getDni());
+       //barco = new Barco(barco.getMatricula(), barco.getEslora(), barco.getAnoFabricacion());
+        
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public String toString(){
+        return "Matricula:" +(barco).getMatricula()+ "Eslora" +(barco).getEslora()+ "Año de fabricacion: " +(barco).getAnoFabricacion();
+    }
+    
+    public float getCosteAlquiler(){
+        return numeroDias *(10 * barco.getEslora() + (300 * barco.getCoeficienteBernua()) );
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
